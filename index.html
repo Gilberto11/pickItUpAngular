@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app= "pickItUpApp">
   <head>
-    <title>TheNetNinja Angular Playlist</title>
-    <link href="localhost:8888/content/css/styles.css" rel="stylesheet" type="text/css" />
-
-    <script src = "localhost:8888/app/lib/angular.min.js"></script>
+    <title>Pick It Up</title>
+    <link href="content/css/styles.css" rel="stylesheet" type="text/css" />
+	<script src = "app/lib/angular.min.js"></script>
+	<script src="app/app.js"></script>
   </head>
   <body>
-  	<h1> TEST</h1>
-
-  </body>
+  	<div ng-controller = "pickItUpController">
+  		<p>{{message}}</p>
+  	</div>
+ </body>
 </html>
